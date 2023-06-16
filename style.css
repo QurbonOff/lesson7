@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.block{
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    border: 1px solid black;
+    
+}
+
+.box{
+    width: 75px;
+    height: 75px;
+    border: solid 1px black;
+    color: white;
+    font-size: 25px;
+}
+
+.box:first-child{
+    color: red;
+}
+
+.box:nth-child(2){
+    color: green;
+}
+
+.box:nth-child(3){
+    color: blue;
+}
+
+.box:last-child{
+    color: yellow;
+}
